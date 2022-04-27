@@ -1,0 +1,61 @@
+#header {
+  z-index: 100;
+  background-color: red;
+  width: 80%;
+  margin: 36px auto;
+  border-radius: 8mm;
+  position: relative;
+}
+
+#header .icon-res {
+  display: none;
+}
+
+#header .logo {
+  width: 15%;
+}
+
+#header .nav-menu ul li a {
+  text-decoration: none;
+  padding: 20px 15px;
+  display: block;
+  color: #000;
+}
+
+.discover {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://ld-wt73.template-help.com/tf/horselin/images/swiper-slide-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0%;
+  position: absolute;
+}
+
+@media (max-width: 576px) {
+  #header {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+  }
+  #header .icon-res {
+    display: block;
+  }
+  #header .nav-menu {
+    display: none;
+  }
+  #header .icon-box {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
